@@ -1,0 +1,74 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+ 
+<html  xml:lang="pt" lang="pt">
+ 
+<head>
+	<title>Menu Horizontal</title>
+	<style type="text/css">
+	<!--
+		body {
+			padding:0px;
+			margin:0px;
+		}
+ 
+		#menu ul {
+			padding:0px;
+			margin:0px;
+			float: left;
+			width: 100%;
+			background-color:#EDEDED;
+			list-style:none;
+			font:80% Tahoma;
+		}
+ 
+		#menu ul li { display: inline; }
+ 
+		#menu ul li a {
+			background-color:#EDEDED;
+			color: #333;
+			text-decoration: none;
+			border-bottom:3px solid #EDEDED;
+			padding: 2px 10px;
+			float:left;
+		}
+ 
+		#menu ul li a:hover {
+			background-color:#D6D6D6;
+			color: #6D6D6D;
+			border-bottom:3px solid #EA0000;
+		}
+	-->
+	</style>
+</head>
+ 
+<body>
+	<div id="menu">
+<ul class="menu"> <!-- Esse é o 1 nivel ou o nivel principal -->
+    <li><a href="#">Menu 1</a></li>
+    <li><a href="#">Menu 2</a>
+        <ul class="submenu-1"> <!-- Esse é o 2 nivel ou o primeiro Drop Down -->
+            <li><a href="#">Submenu 1</a></li>
+            <li><a href="#">Submenu 2</a></li>
+            <li><a href="#">Submenu 3</a>
+                    <ul class="submenu-2"> <!-- Esse é o 3 nivel ou o Segundo Drop Down -->
+                        <li><a href="#">Submenu 4</a></li>
+                        <li><a href="#">Submenu 5</a></li>
+                        <li><a href="#">Submenu 6</a>
+                                    <ul class="submenu-3"> <!-- Esse é o 4 nivel ou o Terceiro Drop Down -->
+                                            <li><a href="#">Submenu 7</a></li>
+                                            <li><a href="#">Submenu 8</a></li>
+                                            <li><a href="#">Submenu 9</a></li>
+                                    </ul>
+                        </li>
+                    </ul>
+             </li>
+        </ul>
+    </li>
+    <li><a href="#">Menu 3</a></li>
+    <li><a href="#">Menu 4</a></li>
+    <li><a href="#">Menu 5</a></li>
+
+	</div>
+</body>
+</html>

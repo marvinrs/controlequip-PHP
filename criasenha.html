@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">       
+		<title>Linave Equipamentos</title>
+	</head>
+	<body bgcolor="#EEEEEE">
+		<script type="text/javascript" src="ajax.js"></script>
+		<img src=img/logo.jpg>Movimento de Pessoas e Equipamentos
+		<br><br><br><br>
+		<div id="criausuario">
+			<table width="100%">
+				<tr>
+				<td style="font-size:12px" width="25%" align="right">usuario:</td><td width="50%"><input class="pula" type="text" name="usuario" id="usuario" size="50" maxlength="50"/></td>
+				</tr>
+				<td style="font-size:12px" width="5%" align="right">senha:</td><td><input class="pula" type="text" name="senha" id="senha" size="50" maxlength="50"/></td>
+				<tr>
+				<td style="font-size:12px" width="5%" align="right">filial:</td>
+				<td><select class="pula" name="filial" id="filial" >
+						<option value="0"></option>
+						<option value="0101">Belem</option>
+						<option value="0102">Manaus</option>
+						<option value="0103">Santarem</option>
+						<option value="0104">Porto Trombetas</option>
+					</select>
+				</td>
+				<tr>
+				<td style="font-size:12px" width="5%" align="right">Portal:</td>
+				<td><select class="pula" name="portal" id="portal" >
+						<option value="0"></option>
+						<option value="1">Portaria</option>
+						<option value="2">Porto</option>
+					</select>
+				</td>
+				<tr>
+			</table>
+			<table width="100%">
+				<td style="font-size:17px" width="100%" align="center"><input type="button" name="bntCriaSenha" class="pula" value="Cria Senha" onclick="getCriaSenha();"/></td>
+			</table>
+		</div>
+	</body>
+</html>
